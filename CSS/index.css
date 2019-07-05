@@ -55,7 +55,7 @@ nav ul li a {
 
 /* Background Image with button */
 .Background-image{
-  background-image:url("Photos/adult-affection-baby-698878.jpg");
+  background-image:url("../Photos/adult-affection-baby-698878.jpg");
   background-size: cover;
   background-position: center;
   width:100%;
