@@ -1,0 +1,82 @@
+html{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+}
+/* Navigation bar */
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 40px 100px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+nav.black {
+  background: rgba(0, 0, 0 0.8);
+  height: 100px;
+  padding: 10px 100px;
+}
+
+nav.black {
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #151515;
+  padding: 12px 30px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.logo{
+  position: absolute;
+  top:0;
+  left:40px;
+  padding:0;
+  margin:0;
+
+}
+/* Navigation bar end */
+
+/* Background Image with button */
+.Background-image{
+  background-image:url("../Photos/adult-affection-baby-698878.jpg");
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height:500px;
+}
+h1{
+  font-size: 3em;
+  font-family:'Roboto', sans-serif;
+}
+.button1{
+  background-color: rgb(6,123,194, 0.8); /* light-blue */
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  bottom:50px;
+  right:50px;
+  position: absolute;
+}
+/* background image with button end */
